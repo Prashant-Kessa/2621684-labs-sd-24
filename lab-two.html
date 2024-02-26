@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            .nav-container {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-evenly;
+                list-style: none;
+                background: rgb(46, 46, 46);
+            }
+
+            .nav-item {
+                padding: 10px;
+                background: rgb(46, 46, 46);
+                border-radius: 5px;
+            }
+
+            .nav-item a {
+                text-decoration: none;
+                color: white;
+                display: block;
+            }
+
+
+            .nav-item:hover a {
+                color: rgb(255, 67, 67);
+            }
+
+            .center {
+                display: block;
+                justify-content: center;
+                width: 600px;
+                height: 400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .pic-container {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                list-style: none;
+            }
+
+            .pic {
+                border: 1px solid black;
+            }
+
+            footer {
+                text-align: center;
+                padding: 3px;
+                background-color: rgb(46, 46, 46);
+                color: white;
+            }
+
+        </style>
+    </head>
+
+    <nav class = "nav-container">
+        <li class = nav-item><h2 style="color:white">Welcome to Software Design Website</h2></li>
+
+        <ul class="nav-container">
+            <li class = nav-item><a href="lab-two.html">About Us</a></li>
+            <li class = nav-item><a href="lab-two.html">Services</a></li>
+            <li class = nav-item><a href="lab-two.html">Contact Us</a></li>
+        </ul>
+    </nav>  
+    
+    <body>
+        <h3 style="text-align: center;">About Us</h3>
+        <p style="text-align: center;">We are a company dedicated to providing excellent services to our customers</p>
+        <img src="https://www.salesmate.io/blog/wp-content/uploads/2021/11/Sales-and-customer-service-have-more-in-common-than-you-might-think.jpg" alt="Picture 1" class="center">
+
+        <h3 style="text-align: center;">Our Services</h3>
+        <article>
+            <ul class="pic-container">
+                <li class = pic>
+                    <h3 style="text-align: center;">Web Development</h3>
+                    <p style="text-align: center;">We specialize in creating responsive and user-friendly websites</p>
+                    <img src="https://www.digitalsilk.com/wp-content/uploads/2020/06/website-development-process-hero-image.png.webp" alt="Picture 1" class="center">
+                <li class = pic>
+                    <h3 style="text-align: center;">Graphic Design</h3>
+                    <p style="text-align: center;">Our talented designers can bring your ideas to life with stunning visuals</p>
+                    <img src="https://www.georgeanimatrix.com/blog/wp-content/uploads/2023/08/jpeg-optimizer_14-1.jpg" alt="Picture 1" class="center">
+        </article>
+    </body>
+
+    <footer>
+        <p>@ 2024 The Luck Company. All rights reservved.</p>
+    </footer>
+    
+</html>
