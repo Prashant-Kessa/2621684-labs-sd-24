@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Country Information</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1>Country Information</h1>
+
+         
+        <input type="text" id="countryInput" placeholder="Country Name">
+        <button onclick="getCountryInfo()">Get Country Info</button>
+        
+
+        <h3 id = "name">Country Name</h3>
+
+        <p id = "capital">Capital: </p>
+        <p id = "population">Population: </p> 
+        <p id = "region">Region: </p>
+        <img id = "flag" alt="Picture of Flag" class="flagSettings" src="">
+
+        <h3 id = "bordering">Bordering Countries</h3>
+
+        <ul>
+            <li class="flex-container" id="cont">
+                <p id="borders" class="tmp"></p>
+                <p id="borderFlag"></p>
+                
+            </li>
+        </ul>
+
+    </body>
+</html>

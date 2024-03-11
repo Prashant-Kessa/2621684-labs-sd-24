@@ -1,0 +1,22 @@
+.flagSettings {
+    display: block;
+    justify-content: start;
+    width: 300px;
+    height: 200px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 200px;
+}
+.flex-item {
+    width: 30px;
+    height: 20px;
+    
+}
+body{
+    background-color: #cff2ff;
+}
